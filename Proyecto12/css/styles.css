@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box; /* Incluye el padding y border en el tamaño total del elemento */
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    background-color: #7FB0F5;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .formulario, 
+  #nombreEvento, 
+  #fechaEvento, 
+  #agregar, 
+  .listaEventos2 {
+    max-width: 400px;
+    margin: 20px auto ;
+    padding: 20px;
+    border: 1px solid #0A82D5;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #nombreEvento,
+  #fechaEvento,
+  #agregar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #agregar {
+    background-color: #5DADE2;
+  }
+  #nombreEvento,
+  #fechaEvento,
+  .listaEventos2 {
+    width: 50%; /* Ocupa el 50% del ancho del contenedor */
+  }
+  
+  .dias {
+    text-align: left;
+    display: flex;
+    font-size: 50px;
+    font-weight: bold;
+    color: #F52F2C;
+    margin-right: 10px;
+    display: flex;
+  }
+  
+  .texto {
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: right;
+  }
+  
+  .nombreEvento,
+  .fechaEvento {
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .eliminar {
+    background-color: #7FF596;
+    color: black;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .eliminar:hover {
+    background-color: #F74027;
+  }
+  
+footer{
+    color: white;
+    text-align: center;
+}
